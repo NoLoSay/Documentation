@@ -15,5 +15,6 @@
   * [🔨 Architecture](documentation/data-base/architecture.md)
 * [🔫 Devops + CI/CD](documentation/devops/README.md)
   * [🔨 Architecture](documentation/devops/architecture.md)
+  * [🚧 Github actions](documentation/devops/github-actions.md)
 * [🚌 API](documentation/api/README.md)
   * [🪜 Get started](documentation/api/get-started.md)
