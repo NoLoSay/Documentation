@@ -7,6 +7,7 @@
 * [👐 To start](documentation/to-start/README.md)
   * [🪜 Setup](documentation/to-start/setup.md)
   * [🛠 Tools](documentation/to-start/outils.md)
+  * [🤝 Makefile](documentation/to-start/makefile.md)
 * [🐥 Font-End](documentation/font-end/README.md)
   * [🔨 Architecture](documentation/font-end/architecture.md)
 * [🔮 Back-End](documentation/back-end/README.md)

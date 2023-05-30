@@ -18,4 +18,8 @@ The code should work as expected and every new feature should not break older on
 
 #### Code format tests
 
-The code should respect format rules, and should be as clean as possible (no warnings, no error, no unused libraries etc...). We use ESLint and prettier for typescript. You are free to use another formater or linter of your choice, but please be sure to respect format rules established in [code format rules ](code-format-rules.md)section. We recommand you to implement the "format on save" function in your IDE so you can be sure to always respect format.
+The code should respect format rules, and should be as clean as possible (no warnings, no error, no unused libraries etc...). We use ESLint and prettier for typescript. Feel free to use another formater or linter of your choice, but please be sure to respect format rules established in the [code format rules ](code-format-rules.md)section. We recommand you to implement the "format on save" function in your IDE so you are sure to always respect format.
+
+#### Makefile
+
+All these tests will be launched from a Makefile, with the _<mark style="color:green;">make basic-tests</mark>_ command. please refer to the [Makefile](../to-start/makefile.md) section for further information.
