@@ -63,6 +63,13 @@ start:
 
 ### Name & Tag
 
+Name and tag are based on package.json "name" and "version" property by default. If you don't have package.json or you want to set it manually, please change:
+
+```makefile
+TAG := $(shell cat package.json | grep 'version' | cut -d"\"" -f4)
+NAME := $(shell cat package.json | grep 'name' | cut -d"\"" -f4)
+```
+
 ### Exemple
 
 {% code title="Makefile" %}
