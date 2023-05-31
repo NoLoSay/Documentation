@@ -6,7 +6,7 @@ description: >-
 
 # 🚧 Github actions
 
-### Basics tests
+## <mark style="color:red;">Basics tests</mark>
 
 #### Compilation tests
 

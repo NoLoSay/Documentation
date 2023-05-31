@@ -4,9 +4,9 @@ description: >-
   comprehension
 ---
 
-# 🤝 Makefile
+# 🤝 Makefile&#x20;
 
-### Mandatory commands
+## <mark style="color:red;">Mandatory commands</mark>
 
 #### install
 
@@ -61,7 +61,7 @@ start:
 	// github-actions process(es).
 ```
 
-### Name & Tag
+## <mark style="color:red;">Name & Tag</mark>
 
 Name and tag are based on package.json "name" and "version" property by default. If you don't have package.json or you want to set it manually, please change:
 
@@ -70,7 +70,27 @@ TAG := $(shell cat package.json | grep 'version' | cut -d"\"" -f4)
 NAME := $(shell cat package.json | grep 'name' | cut -d"\"" -f4)
 ```
 
-### Exemple
+## <mark style="color:red;">Github actions</mark>
+
+#### basic tests
+
+_<mark style="color:green;">make basic tests</mark>_ will execute make install, build, lint, unit-tests and start (start is not in background). This can be useful if you want to simulate a github action locally without using act brefore push your branch. &#x20;
+
+```makefile
+basic-tests:
+	clear
+	@echo "####################### BASIC TESTS for Nolosay: $(NAME) v.$(TAG) #######################"
+	$(MAKE) install &&\
+	$(MAKE) build &&\
+	$(MAKE) lint &&\
+	$(MAKE) unit-tests &&\
+	$(MAKE) start
+	// feel free to custom it, but make sure you have at least these make call.
+```
+
+## <mark style="color:red;">Exemple</mark>
+
+Copy / paste this template to your new projects. Feel free to customize it with your own commands.
 
 {% code title="Makefile" %}
 ```makefile
