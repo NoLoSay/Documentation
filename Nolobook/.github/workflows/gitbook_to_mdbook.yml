@@ -1,0 +1,18 @@
+name: gitbook to mdbook
+
+on:
+  push:
+    branches: [ gitbook ]
+
+jobs:
+  build-linux:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: git book to mdbook
+        run: |
+          cp ./book/* ./Nolobook/src 
+          cd Nolobook
+          mdbook build
