@@ -1,6 +1,8 @@
 name: gitbook to mdbook
 
 on:
+  pull_request:
+    branches: [ gitbook ]
   push:
     branches: [ gitbook ]
 
