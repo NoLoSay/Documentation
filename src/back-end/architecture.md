@@ -6,4 +6,4 @@ description: >-
 
 # 🔨 Architecture
 
-<figure><img src="../../.gitbook/assets/Schémas fonctionnels &#x26; Cartes des livrables - API.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/Schémas fonctionnels &#x26; Cartes des livrables - API.png" alt=""><figcaption></figcaption></figure>
