@@ -4,7 +4,7 @@ description: >-
   functionnal code.
 ---
 
-# 🚧 Github actions
+# Github actions
 
 ## <mark style="color:red;">Basics tests</mark>
 
@@ -14,7 +14,7 @@ The first test the code will pass is the compilation test. You should **always**
 
 #### Unit-tests
 
-The code should work as expected and every new feature should not break older ones. In order to maintain stability, every features must be tested with unit-tests. Unit-tests will be verified on  main's branch merge request, and you may not merge without passing it. Be sure to update your tests.
+The code should work as expected and every new feature should not break older ones. In order to maintain stability, every features must be tested with unit-tests. Unit-tests will be verified on main's branch merge request, and you may not merge without passing it. Be sure to update your tests.
 
 #### Code format tests
 
@@ -23,3 +23,5 @@ The code should respect format rules, and should be as clean as possible (no war
 #### Makefile
 
 All these tests will be launched from a Makefile, with the _<mark style="color:green;">make basic-tests</mark>_ command. please refer to the [Makefile](../to-start/makefile.md) section for further information.
+
+## Auto  deployment

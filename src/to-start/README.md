@@ -4,6 +4,6 @@ description: >-
   different plateform
 ---
 
-# 👐 To start
+# To start
 
 ## Window

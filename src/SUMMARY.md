@@ -1,24 +1,24 @@
 # Table of contents
 
-* [README](README.md)
+* [README](../)
 
 ## Documentation
 
-* [👐 To start](to-start/README.md)
+* [👐 To start](to-start/)
 * [🪜 Setup](to-start/setup.md)
 * [🛠 Tools](to-start/outils.md)
-* [🤝 Makefile ](to-start/makefile.md)
-* [🐥 Font-End](font-end/README.md)
+* [🤝 Makefile](to-start/makefile.md)
+* [🐥 Font-End](font-end/)
 * [🔨 Architecture](font-end/architecture.md)
-* [🔮 Back-End](back-end/README.md)
+* [🔮 Back-End](back-end/)
 * [🔨 Architecture](back-end/architecture.md)
-* [🎋 Data Base](data-base/README.md)
+* [🎋 Data Base](data-base/)
 * [🔨 Architecture](data-base/architecture.md)
-* [🔫 Devops + CI/CD](devops/README.md)
+* [🔫 Devops + CI/CD](devops/)
 * [🔨 Architecture](devops/architecture.md)
 * [🚧 Github actions](devops/github-actions.md)
 * [📏 Code format rules](devops/code-format-rules.md)
-* [🚌 API](api/README.md)
+* [🚌 API](api/)
 * [🪜 Get started](api/get-started.md)
-* [🌍 Global](global/README.md)
+* [🌍 Global](global/)
 * [🔨 Architecture](global/architecture.md)

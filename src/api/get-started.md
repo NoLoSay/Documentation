@@ -2,7 +2,7 @@
 description: Here you will learn how to clone and start with our API.
 ---
 
-# 🪜 Get started
+# Get started
 
 ## Clone the repository
 

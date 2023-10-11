@@ -4,7 +4,7 @@
 
 [Key Features](./#key-features) • [How To Use](./#how-to-use) • [Download](./#download) • [Credits](./#credits) • [Related](./#related) • [License](./#license)
 
-![](.gitbook/assets/NolsayAppTemplate.png)
+![](src/.gitbook/assets/NolsayAppTemplate.png)
 
 ## Key Features
 

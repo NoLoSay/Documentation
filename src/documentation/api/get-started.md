@@ -1,1 +1,2 @@
-# 🪜 Get started
+# Get started
+

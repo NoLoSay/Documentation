@@ -4,6 +4,6 @@ description: >-
   don't hesitate to check the linked lucid chart
 ---
 
-# 🔨 Architecture
+# Architecture
 
 <figure><img src="../assets/Schémas fonctionnels &#x26; Cartes des livrables - API.png" alt=""><figcaption></figcaption></figure>

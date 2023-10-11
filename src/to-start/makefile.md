@@ -4,13 +4,13 @@ description: >-
   comprehension
 ---
 
-# 🤝 Makefile&#x20;
+# Makefile
 
 ## <mark style="color:red;">Mandatory commands</mark>
 
 #### install
 
-_<mark style="color:green;">make install</mark>_ command will automatically install all necessary libraries for the project (API, back, front etc...).&#x20;
+_<mark style="color:green;">make install</mark>_ command will automatically install all necessary libraries for the project (API, back, front etc...).
 
 ```makefile
 install:
@@ -74,7 +74,7 @@ NAME := $(shell cat package.json | grep 'name' | cut -d"\"" -f4)
 
 #### basic tests
 
-_<mark style="color:green;">make basic tests</mark>_ will execute make install, build, lint, unit-tests and start (start is not in background). This can be useful if you want to simulate a github action locally without using act brefore push your branch. &#x20;
+_<mark style="color:green;">make basic tests</mark>_ will execute make install, build, lint, unit-tests and start (start is not in background). This can be useful if you want to simulate a github action locally without using act brefore push your branch.
 
 ```makefile
 basic-tests:

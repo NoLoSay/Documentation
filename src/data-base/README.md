@@ -1,2 +1,2 @@
-# 🎋 Data Base
+# Data Base
 
