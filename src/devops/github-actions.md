@@ -25,3 +25,5 @@ The code should respect format rules, and should be as clean as possible (no war
 All these tests will be launched from a Makefile, with the _<mark style="color:green;">make basic-tests</mark>_ command. please refer to the [Makefile](../to-start/makefile.md) section for further information.
 
 ## Auto  deployment
+
+We automatically deploy our project with dockers containers on a remote Azure machine when a new release occurs on the main branch.
