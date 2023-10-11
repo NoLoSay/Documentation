@@ -23,3 +23,5 @@ The code should respect format rules, and should be as clean as possible (no war
 #### Makefile
 
 All these tests will be launched from a Makefile, with the _<mark style="color:green;">make basic-tests</mark>_ command. please refer to the [Makefile](../to-start/makefile.md) section for further information.
+
+## Automatic deployement
