@@ -26,4 +26,4 @@ All these tests will be launched from a Makefile, with the _<mark style="color:g
 
 ## <mark style="color:red;">Automatic deployment</mark>&#x20;
 
-We deploy our project on a distant azure machine. The project is automatically deployed in docker containers when a new release is created.&#x20;
+We deploy our project on a distant azure machine. The project is automatically deployed in docker containers when a new release is created. test
