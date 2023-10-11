@@ -375,16 +375,18 @@ don't hesitate to check the linked lucid chart</h2>
 <h2>description: &gt;-
 Our project uses some github action in order to maintain a clean and
 functionnal code.</h2>
-<h1 id="-github-actions"><a class="header" href="#-github-actions">🚧 Github actions</a></h1>
+<h1 id="github-actions"><a class="header" href="#github-actions">Github actions</a></h1>
 <h2 id="mark-stylecolorredbasics-testsmark"><a class="header" href="#mark-stylecolorredbasics-testsmark"><mark style="color:red;">Basics tests</mark></a></h2>
 <h4 id="compilation-tests"><a class="header" href="#compilation-tests">Compilation tests</a></h4>
 <p>The first test the code will pass is the compilation test. You should <strong>always</strong> merge a <strong>compilable</strong> code on main branch, working on any machine. Github action will create a virtual ubuntu machine and will builld the code from nothing. Be sure to add all necessary libraries or tools in the installation process (yarn install, npm install etc...) !</p>
 <h4 id="unit-tests-1"><a class="header" href="#unit-tests-1">Unit-tests</a></h4>
-<p>The code should work as expected and every new feature should not break older ones. In order to maintain stability, every features must be tested with unit-tests. Unit-tests will be verified on  main's branch merge request, and you may not merge without passing it. Be sure to update your tests.</p>
+<p>The code should work as expected and every new feature should not break older ones. In order to maintain stability, every features must be tested with unit-tests. Unit-tests will be verified on main's branch merge request, and you may not merge without passing it. Be sure to update your tests.</p>
 <h4 id="code-format-tests"><a class="header" href="#code-format-tests">Code format tests</a></h4>
 <p>The code should respect format rules, and should be as clean as possible (no warnings, no error, no unused libraries etc...). We use ESLint and prettier for typescript. Feel free to use another formater or linter of your choice, but please be sure to respect format rules established in the <a href="devops/code-format-rules.html">code format rules </a>section. We recommand you to implement the &quot;format on save&quot; function in your IDE so you are sure to always respect format.</p>
 <h4 id="makefile"><a class="header" href="#makefile">Makefile</a></h4>
 <p>All these tests will be launched from a Makefile, with the <em><mark style="color:green;">make basic-tests</mark></em> command. please refer to the <a href="devops/../to-start/makefile.html">Makefile</a> section for further information.</p>
+<h2 id="auto-deployment"><a class="header" href="#auto-deployment">Auto deployment</a></h2>
+<p>We automatically deploy our project with dockers containers on a remote Azure machine when a new release occurs on the main branch.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="-code-format-rules"><a class="header" href="#-code-format-rules">📏 Code format rules</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="-api"><a class="header" href="#-api">🚌 API</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><hr />
