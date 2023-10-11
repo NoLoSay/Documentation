@@ -1,2 +1,2 @@
-# 📏 Code format rules
+# Code format rules
 

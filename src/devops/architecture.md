@@ -1,3 +1,3 @@
-# 🔨 Architecture
+# Architecture
 
-<figure><img src="../assets/Schémas fonctionnels &#x26; Cartes des livrables - Ops.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CI_schema(1) (1).png" alt=""><figcaption></figcaption></figure>
