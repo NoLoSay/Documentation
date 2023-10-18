@@ -215,16 +215,16 @@ $ npm start
 <h2>description: &gt;-
 In this page, you will learn how to compile and launch the project on
 different plateform</h2>
-<h1 id="-to-start"><a class="header" href="#-to-start">👐 To start</a></h1>
+<h1 id="to-start"><a class="header" href="#to-start">To start</a></h1>
 <h2 id="window"><a class="header" href="#window">Window</a></h2>
 <div style="break-before: page; page-break-before: always;"></div><hr />
 <h2 id="description-here-you-will-find-everything-to-setup-your-development-environnement"><a class="header" href="#description-here-you-will-find-everything-to-setup-your-development-environnement">description: Here you will find everything to setup your development environnement</a></h2>
-<h1 id="-setup"><a class="header" href="#-setup">🪜 Setup</a></h1>
+<h1 id="setup"><a class="header" href="#setup">Setup</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><hr />
 <h2>description: &gt;-
 You will find every tools we use to work, from organisation tools to
 technologies.</h2>
-<h1 id="-tools"><a class="header" href="#-tools">🛠 Tools</a></h1>
+<h1 id="tools"><a class="header" href="#tools">Tools</a></h1>
 <h2 id="communication"><a class="header" href="#communication">Communication</a></h2>
 <ul>
 <li>Discord</li>
@@ -245,10 +245,10 @@ technologies.</h2>
 <h2>description: &gt;-
 Makefile will allow Nolosay to have common commands to make easier
 comprehension</h2>
-<h1 id="-makefile"><a class="header" href="#-makefile">🤝 Makefile </a></h1>
+<h1 id="makefile"><a class="header" href="#makefile">Makefile</a></h1>
 <h2 id="mark-stylecolorredmandatory-commandsmark"><a class="header" href="#mark-stylecolorredmandatory-commandsmark"><mark style="color:red;">Mandatory commands</mark></a></h2>
 <h4 id="install"><a class="header" href="#install">install</a></h4>
-<p><em><mark style="color:green;">make install</mark></em> command will automatically install all necessary libraries for the project (API, back, front etc...). </p>
+<p><em><mark style="color:green;">make install</mark></em> command will automatically install all necessary libraries for the project (API, back, front etc...).</p>
 <pre><code class="language-makefile">install:
 	@echo &quot;running install...&quot;
 	// insert libraries installation process (yarn install, npm etc....)
@@ -287,7 +287,7 @@ NAME := $(shell cat package.json | grep 'name' | cut -d&quot;\&quot;&quot; -f4)
 </code></pre>
 <h2 id="mark-stylecolorredgithub-actionsmark"><a class="header" href="#mark-stylecolorredgithub-actionsmark"><mark style="color:red;">Github actions</mark></a></h2>
 <h4 id="basic-tests"><a class="header" href="#basic-tests">basic tests</a></h4>
-<p><em><mark style="color:green;">make basic tests</mark></em> will execute make install, build, lint, unit-tests and start (start is not in background). This can be useful if you want to simulate a github action locally without using act brefore push your branch.  </p>
+<p><em><mark style="color:green;">make basic tests</mark></em> will execute make install, build, lint, unit-tests and start (start is not in background). This can be useful if you want to simulate a github action locally without using act brefore push your branch.</p>
 <pre><code class="language-makefile">basic-tests:
 	clear
 	@echo &quot;####################### BASIC TESTS for Nolosay: $(NAME) v.$(TAG) #######################&quot;
@@ -356,21 +356,23 @@ show_version:
 .PHONY: install lint build unit-tests show_version start-background start
 </code></pre>
 <p>{% endcode %}</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-font-end"><a class="header" href="#-font-end">🐥 Font-End</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-architecture"><a class="header" href="#-architecture">🔨 Architecture</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="font-end"><a class="header" href="#font-end">Font-End</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="architecture"><a class="header" href="#architecture">Architecture</a></h1>
 <figure><img src="font-end/../assets/Schémas fonctionnels &#x26; Cartes des livrables - Front.png" alt=""><figcaption><p>Front-end functionalities schema</p></figcaption></figure>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-back-end"><a class="header" href="#-back-end">🔮 Back-End</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="back-end"><a class="header" href="#back-end">Back-End</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><hr />
 <h2>description: &gt;-
 Here is the current back-end architecture. It change change trough time, so
 don't hesitate to check the linked lucid chart</h2>
-<h1 id="-architecture-1"><a class="header" href="#-architecture-1">🔨 Architecture</a></h1>
-<figure><img src="back-end/../assets/Schémas fonctionnels &#x26; Cartes des livrables - API.png" alt=""><figcaption></figcaption></figure>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-data-base"><a class="header" href="#-data-base">🎋 Data Base</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-architecture-2"><a class="header" href="#-architecture-2">🔨 Architecture</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-devops--cicd"><a class="header" href="#-devops--cicd">🔫 Devops + CI/CD</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-architecture-3"><a class="header" href="#-architecture-3">🔨 Architecture</a></h1>
-<figure><img src="devops/../assets/Schémas fonctionnels &#x26; Cartes des livrables - Ops.png" alt=""><figcaption></figcaption></figure>
+<h1 id="schema"><a class="header" href="#schema">Schema</a></h1>
+<figure><img src="back-end/../../.gitbook/assets/Schémas fonctionnels &#x26; Cartes des livrables - Back GitHub Sub-Repository Architecture.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="back-end/../../.gitbook/assets/Schémas fonctionnels &#x26; Cartes des livrables - Back Module.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="back-end/../../.gitbook/assets/Schémas fonctionnels &#x26; Cartes des livrables - Back Module(1).png" alt=""><figcaption></figcaption></figure>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="data-base"><a class="header" href="#data-base">Data Base</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="architecture-1"><a class="header" href="#architecture-1">Architecture</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="devops--cicd"><a class="header" href="#devops--cicd">Devops + CI/CD</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="architecture-2"><a class="header" href="#architecture-2">Architecture</a></h1>
+<figure><img src="devops/../../.gitbook/assets/CI_schema(1) (1).png" alt=""><figcaption></figcaption></figure>
 <div style="break-before: page; page-break-before: always;"></div><hr />
 <h2>description: &gt;-
 Our project uses some github action in order to maintain a clean and
@@ -383,15 +385,15 @@ functionnal code.</h2>
 <p>The code should work as expected and every new feature should not break older ones. In order to maintain stability, every features must be tested with unit-tests. Unit-tests will be verified on main's branch merge request, and you may not merge without passing it. Be sure to update your tests.</p>
 <h4 id="code-format-tests"><a class="header" href="#code-format-tests">Code format tests</a></h4>
 <p>The code should respect format rules, and should be as clean as possible (no warnings, no error, no unused libraries etc...). We use ESLint and prettier for typescript. Feel free to use another formater or linter of your choice, but please be sure to respect format rules established in the <a href="devops/code-format-rules.html">code format rules </a>section. We recommand you to implement the &quot;format on save&quot; function in your IDE so you are sure to always respect format.</p>
-<h4 id="makefile"><a class="header" href="#makefile">Makefile</a></h4>
+<h4 id="makefile-1"><a class="header" href="#makefile-1">Makefile</a></h4>
 <p>All these tests will be launched from a Makefile, with the <em><mark style="color:green;">make basic-tests</mark></em> command. please refer to the <a href="devops/../to-start/makefile.html">Makefile</a> section for further information.</p>
 <h2 id="auto-deployment"><a class="header" href="#auto-deployment">Auto deployment</a></h2>
 <p>We automatically deploy our project with dockers containers on a remote Azure machine when a new release occurs on the main branch.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-code-format-rules"><a class="header" href="#-code-format-rules">📏 Code format rules</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-api"><a class="header" href="#-api">🚌 API</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="code-format-rules"><a class="header" href="#code-format-rules">Code format rules</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="api"><a class="header" href="#api">API</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><hr />
 <h2 id="description-here-you-will-learn-how-to-clone-and-start-with-our-api"><a class="header" href="#description-here-you-will-learn-how-to-clone-and-start-with-our-api">description: Here you will learn how to clone and start with our API.</a></h2>
-<h1 id="-get-started"><a class="header" href="#-get-started">🪜 Get started</a></h1>
+<h1 id="get-started"><a class="header" href="#get-started">Get started</a></h1>
 <h2 id="clone-the-repository"><a class="header" href="#clone-the-repository">Clone the repository</a></h2>
 <pre><code class="language-bash"># with command line and ssh
 git clone git@github.com:NoLoSay/API.git
@@ -411,8 +413,8 @@ yarn run start
 npm start
 </code></pre>
 <p>And you're ready to go !</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-global"><a class="header" href="#-global">🌍 Global</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="-architecture-4"><a class="header" href="#-architecture-4">🔨 Architecture</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="global"><a class="header" href="#global">Global</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="architecture-3"><a class="header" href="#architecture-3">Architecture</a></h1>
 <figure><img src="global/../assets/Schémas fonctionnels &#x26; Cartes des livrables - Global.png" alt=""><figcaption></figcaption></figure>
 
                     </main>

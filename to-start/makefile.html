@@ -147,10 +147,10 @@
 <h2>description: &gt;-
 Makefile will allow Nolosay to have common commands to make easier
 comprehension</h2>
-<h1 id="-makefile"><a class="header" href="#-makefile">🤝 Makefile </a></h1>
+<h1 id="makefile"><a class="header" href="#makefile">Makefile</a></h1>
 <h2 id="mark-stylecolorredmandatory-commandsmark"><a class="header" href="#mark-stylecolorredmandatory-commandsmark"><mark style="color:red;">Mandatory commands</mark></a></h2>
 <h4 id="install"><a class="header" href="#install">install</a></h4>
-<p><em><mark style="color:green;">make install</mark></em> command will automatically install all necessary libraries for the project (API, back, front etc...). </p>
+<p><em><mark style="color:green;">make install</mark></em> command will automatically install all necessary libraries for the project (API, back, front etc...).</p>
 <pre><code class="language-makefile">install:
 	@echo &quot;running install...&quot;
 	// insert libraries installation process (yarn install, npm etc....)
@@ -189,7 +189,7 @@ NAME := $(shell cat package.json | grep 'name' | cut -d&quot;\&quot;&quot; -f4)
 </code></pre>
 <h2 id="mark-stylecolorredgithub-actionsmark"><a class="header" href="#mark-stylecolorredgithub-actionsmark"><mark style="color:red;">Github actions</mark></a></h2>
 <h4 id="basic-tests"><a class="header" href="#basic-tests">basic tests</a></h4>
-<p><em><mark style="color:green;">make basic tests</mark></em> will execute make install, build, lint, unit-tests and start (start is not in background). This can be useful if you want to simulate a github action locally without using act brefore push your branch.  </p>
+<p><em><mark style="color:green;">make basic tests</mark></em> will execute make install, build, lint, unit-tests and start (start is not in background). This can be useful if you want to simulate a github action locally without using act brefore push your branch.</p>
 <pre><code class="language-makefile">basic-tests:
 	clear
 	@echo &quot;####################### BASIC TESTS for Nolosay: $(NAME) v.$(TAG) #######################&quot;
