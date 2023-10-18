@@ -6,7 +6,7 @@
   * [API](src/api/README.md)
     * [Get started](src/api/get-started.md)
   * [Back-End](src/back-end/README.md)
-    * [Architecture](src/back-end/architecture.md)
+    * [Schema](src/back-end/architecture.md)
   * [Data Base](src/data-base/README.md)
     * [Architecture](src/data-base/architecture.md)
   * [Devops + CI/CD](src/devops/README.md)
